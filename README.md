@@ -38,17 +38,17 @@ Straightforward. Unforgiving. Production or nothing.
 
 ## The Models
 
-| Model | Language | Size |
-|-------|----------|------|
-| Agnes Flash | TypeScript | Flash |
-| Qwen 3.8 Dense | TypeScript | 27B |
-| Qwen 3.6 MoE | Python | MoE |
-| Ornith 1.5 MoE | Python | MoE |
-| Muse Glimmer | Python | — |
-| BigBang v1 | TypeScript | — |
-| Kat Coder 2.5 | TypeScript | — |
-| K2 Horizon 36B MoVA | Python | 36B |
-| Nex N2.5 mini | Python | Mini |
+| Model | Language | Type | Size |
+|-------|----------|------|------|
+| Agnes Flash | TypeScript | Dense (Hybrid Attention) | 33B |
+| Qwen 3.8 Dense | TypeScript | Dense | 27B |
+| Qwen 3.6 MoE | Python | MoE | 35B-A3B |
+| Ornith 1.5 MoE | Python | MoE | 35B-A3B |
+| Muse Glimmer | Python | Dense (GQA) | ~30B |
+| BigBang v1 | TypeScript | MoE | 35B-A3B |
+| Kat Coder 2.5 | TypeScript | MoE | 35B-A3B |
+| K2 Horizon 36B MoVA | Python | MoE | 36B-A4B |
+| Nex N2.5 mini | Python | MoE | 35B-A3B |
 
 ---
 
