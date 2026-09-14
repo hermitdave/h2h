@@ -1,0 +1,26 @@
+{
+  "name": "bigbang-task-scheduler",
+  "version": "1.0.0",
+  "description": "Production-ready in-memory task scheduler with priorities, dependencies, cycle detection, and dynamic updates.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest --config jest.config.json --verbose --forceExit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "scheduler",
+    "task-scheduler",
+    "priority",
+    "dependencies",
+    "cycle-detection"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.0",
+    "ts-jest": "^29.4.12",
+    "typescript": "^5.7.0"
+  }
+}
