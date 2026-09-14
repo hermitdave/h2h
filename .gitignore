@@ -3,20 +3,29 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
-.venv/
-venv/
 .pytest_cache/
 .coverage
 htmlcov/
+*.pyc
 
-# Node
+# Node / TypeScript
 node_modules/
 dist/
 build/
+coverage/
+*.tsbuildinfo
 
-# macOS
+# IDE / OS
 .DS_Store
-
-# IDE
-.vscode/
 .idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local

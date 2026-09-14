@@ -315,7 +315,7 @@ Open an issue or PR with the model name, submission code, and test results.
 
 <div align="center">
 
-**Evaluated by [Coder Reviewer](https://hermes-agent.nousresearch.com) • September 2026**
+**Evaluated by [Sentinel](https://hermes-agent.nousresearch.com) • September 2026**
 
 *Built with Hermes Agent, Nous Research*
 
